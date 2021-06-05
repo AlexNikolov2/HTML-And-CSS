@@ -1,0 +1,11 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
+
+html{
+    font-family: Helvetica, serif;
+}
+li{
+    list-style: none;
+}
+i{
+    margin-right: 3px;
+}
