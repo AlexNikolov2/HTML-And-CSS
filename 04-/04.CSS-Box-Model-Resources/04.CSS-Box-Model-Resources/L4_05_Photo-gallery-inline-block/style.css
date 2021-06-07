@@ -1,0 +1,7 @@
+li{
+    border: 0.4rem black solid;
+    list-style: none;
+    display: inline-block;
+    margin: 0 30px;
+    align-items: center;
+}
