@@ -1,0 +1,18 @@
+@import url("https://use.fontawesome.com/f2c5da52d4.js");
+
+section.card{
+    display:block;
+    position: absolute;
+}
+img{
+    position:absolute;
+    left: 700px;
+    border: 1px solid;
+}
+body{
+    position: relative;
+}
+.second{
+    position: absolute;
+    top: 400px;
+}
