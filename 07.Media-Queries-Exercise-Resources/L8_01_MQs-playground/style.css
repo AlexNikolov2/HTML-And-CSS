@@ -1,0 +1,30 @@
+  
+.first::after {
+    content: "Viewport width is larger than 600px";
+}
+
+.second::after {
+    content: "Viewport height is larger than 600px";
+}
+
+.ar::after {
+    content: "Aspect ratio is larger than 8/5";
+}
+
+@media screen and (max-width: 600px) {
+    .first::after {
+        content: "Viewport width is smaller than 600px";
+    }
+}
+
+@media screen and (max-height: 600px) {
+    .second::after {
+        content: "Viewport height is smaller than 600px";
+    }
+}
+
+@media screen and (max-aspect-ratio: 8/5) {
+    .ar::after {
+        content: "Aspect-ratio is smaller than 8/5";
+    }
+}
